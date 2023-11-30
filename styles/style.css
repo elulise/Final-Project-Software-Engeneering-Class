@@ -223,3 +223,15 @@ h3{
     opacity: 1;
 }
 
+
+/* -------Clubs Page---------- */
+.card-img-top {
+    object-fit: cover;
+    height: 200px;
+}
+
+.card:hover {
+    box-shadow: 0 0 20px rgba(0, 0, 1, 0.2);
+    /* Example: Adds a subtle box shadow on hover */
+    transform: scale(1.05);
+}
