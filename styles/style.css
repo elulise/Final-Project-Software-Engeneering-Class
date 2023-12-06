@@ -13,6 +13,39 @@
     position: relative;
 
 }
+
+.header2{
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(194, 197, 211, 0.7),rgba(177, 184, 208, 0.7)),url(../img/BlueBackground.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+
+}
+
+.header3{
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(../img/ClubBackground.png);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+
+}
+
+.header4{
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(213, 215, 223, 0.7),rgba(223, 224, 232, 0.7)),url(../img/BlueBackground.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+
+}
+
+
+
 nav{
     display: flex;
     padding: 2% 6%;
@@ -38,6 +71,43 @@ nav img{
     text-decoration: none;
     font-size: 13px;
 }
+.nav-links ul li a{
+    color: #f3f3f3;
+    text-decoration: none;
+    font-size: 13px;
+}
+.nav-links2{
+    flex: 1;
+    text-align: right;
+}
+.nav-links2 ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+}
+.nav-links2 ul li a{
+    color: #ffff;
+    text-decoration: none;
+    font-size: 13px;
+}
+.nav-links2 ul li a{
+    color: #0d0101;
+    text-decoration: none;
+    font-size: 13px;
+}
+.nav-links2 ul li::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: #72A0C1;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+.nav-links2 ul li:hover::after{
+    width: 100%;
+}
 .nav-links ul li::after{
     content: '';
     width: 0%;
@@ -62,6 +132,49 @@ nav img{
 .text-box h1{
     font-size: 62px;
 }
+
+.text-box2{
+    width: 90%;
+    color: #fff;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+.text-box2 h1{
+    font-size: 62px;
+}
+
+.text-box3{
+    width: 90%;
+    color: #fff;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+.text-box3 h1{
+    font-size: 62px;
+}
+
+.text-box4{
+    width: 90%;
+    color: #fff;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+.text-box4 h1{
+    font-size: 62px;
+}
+
+
+
+
 .text-box p{
     margin: 10px 0 40px;
     font-size: 14px;
@@ -276,7 +389,7 @@ h3{
     text-decoration: none;
   }
   .Quickclub:visited {
-    color: rgb(10, 17, 213);
+    color: rgb(0, 1, 9);
     background-color: transparent;
     text-decoration: none;
   }
@@ -290,4 +403,25 @@ h3{
     background-color: transparent;
     text-decoration: underline;
   }
- 
+
+  /*------Event--------*/
+  .Event:link {
+    color: rgb(1, 20, 22);
+    background-color: transparent;
+    text-decoration: none;
+  }
+  .Event:visited {
+    color: rgb(1, 1, 18);
+    background-color: transparent;
+    text-decoration: none;
+  }
+  .Event:hover {
+    color: rgb(126, 128, 187)(0, 64, 255);
+    background-color: transparent;
+    text-decoration: none;
+  }
+  .Event:active {
+    color: rgb(0, 242, 255);
+    background-color: transparent;
+    text-decoration: none;
+  }
