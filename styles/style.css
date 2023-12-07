@@ -432,3 +432,11 @@ h3{
     text-align:left;
     font-size:20px;
   }
+
+  /* Location of Google Translation on page */
+  #google_translate_element {
+    position: fixed;
+    bottom: 0;
+    left: 0; /* You can adjust the right property if you want it to be on the right side */
+    z-index: 1000; /* Adjust the z-index as needed */
+}
