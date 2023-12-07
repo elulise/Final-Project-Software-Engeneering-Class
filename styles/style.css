@@ -14,20 +14,22 @@
 
 }
 
+/* Event Page */
 .header2{
     min-height: 100vh;
     width: 100%;
-    background-image: linear-gradient(rgba(194, 197, 211, 0.7),rgba(177, 184, 208, 0.7)),url(../img/BlueBackground.jpg);
+    background-image: linear-gradient(rgba(98, 101, 116, 0.7),rgba(133, 139, 158, 0.7)),url(https://www.dpreview.com/files/p/articles/7961724650/Lesson-4-Yarra-Ranges-Road-Black-Spur-Mountain-Ash.jpeg);
     background-position: center;
     background-size: cover;
     position: relative;
 
 }
 
+/* Club Page */
 .header3{
     min-height: 100vh;
     width: 100%;
-    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(../img/ClubBackground.png);
+    background-image: linear-gradient(rgba(98, 101, 116, 0.7),rgba(133, 139, 158, 0.7)),url(https://i0.wp.com/photofocus.com/wp-content/uploads/2020/11/LenaSanverWinterLandscapeCover.jpg?resize=1280%2C720&ssl=1);
     background-position: center;
     background-size: cover;
     position: relative;
